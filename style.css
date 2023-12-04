@@ -1,0 +1,13 @@
+body {
+display:flex;
+itmes-align: center;
+justify-content: center;
+    flex-direction:column;
+    background-color:red;
+
+}
+#div{
+width:200px;
+height:200px;
+border: solid black 2px;
+}
