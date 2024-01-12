@@ -1,13 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(index.html)",
-      "dest": "/$1"
-    },
-    {
-      "src": "/(?!index.html)(.*)",
-      "dest": "/index.html.html"
-    }
+  "rewrites": [
+    { "source": "/aaaa", "destination": "/" }
   ]
 }
